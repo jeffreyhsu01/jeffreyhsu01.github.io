@@ -1,0 +1,105 @@
+@import '../../../node_modules/nord/src/sass/nord.scss';
+
+.landing-page {
+    position: relative; 
+    height: 100vh; 
+    margin: 0;
+    background-color: $nord6;
+    width: 100%;
+}
+
+.intro {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: auto;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    font-family: Helvetica;
+}
+
+.intro-text {
+    font-weight: bold;
+    margin-bottom: 0.8em;
+    margin-top: 0px;
+    margin-left: 0.5em; // fix this
+    font-size: 2em;
+}
+
+.img {
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .img {
+        display: none;
+    }
+    .intro-text {
+        font-size: 3em;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .intro-body {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 1 auto;
+    }
+}
+
+@media (min-width: 75em) {
+    .intro {
+        position: relative;
+        margin: 0 auto;
+        max-width: 75em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2em;
+        -webkit-box-align: center;
+        align-items: center;
+        row-gap: 8em;
+    }
+    .intro-text {
+       font-size:4em;
+    }
+    .intro-body {
+        padding-left:1.5em;
+    }
+}
+
+@media(min-width: 56.25em) and (max-width: 75em){
+    .intro {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2em;
+        -webkit-box-align: center;
+        align-items: center;
+        row-gap: 8em;
+    }
+    .intro-text {
+        font-size: 4em;
+    }
+    .intro-body {
+        padding-left: 1.5em;
+    }
+}
+@media (min-width: 900px) {
+    .intro-body {
+        text-align: left;
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width:600px)  {
+   .intro-body {
+        margin: 1 auto;
+   }
+}
+

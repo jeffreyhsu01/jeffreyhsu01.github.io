@@ -1,0 +1,129 @@
+@import "../../node_modules/nord/src/sass/nord.scss";
+
+.About {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.AboutMe {
+    margin: 0 auto;
+    position: relative;
+    // padding-bottom: 0px;
+    // top: 50%;
+    // transform: translateY(-50%);
+    // width: 100%;
+}
+
+.AboutMe h3 {
+    padding-top: 120px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.MyExperience {
+    position: relative;
+    z-index: 1;   
+    padding-bottom: 1rem;
+}
+
+.product-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px -2px rgba(50,50,93,.25),0 3px 7px -3px rgba(0,0,0,.3);
+    box-shadow: 0 6px 12px -2px rgba(50,50,93,.25),0 3px 7px -3px rgba(0,0,0,.3);
+    border-radius: 4px;
+    padding: 40px;
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    // display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.product-card+.product-card {
+    margin: 22px 0 0;
+}
+
+@media (min-width: 880px) {
+    .product-card {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-wide, .container-xl {
+    margin: 0 auto;
+    // padding: 0 20px;
+    width: 60%;
+}
+
+.container, .container-lg {
+    max-width: 1040px;
+}
+
+.product-card .product-card-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.internship-title {
+    color: $nord0;
+    margin: 7px 0 8px;
+}
+
+.company-logo img{
+    height: 48px;
+    width: auto;
+    margin: 0 0;
+}
+
+.uppercase h3{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
+
+@media (min-width: 670px) {
+    .uppercase {
+        font-size: 21px;
+        line-height: 32px;
+    }
+}
+
+.internship-desc {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: $nord0;
+}
+
+@media only screen and (max-width:600px)  {
+    // h3 {
+    //     font-size: px;
+    // }
+    .text {
+        font-size: 24px;
+    }
+   
+}
+
+.AboutMe .text a {
+    text-decoration: none;
+}
+
+
+.AboutMe .text a:hover {
+    background-color: rgba(136, 192, 208, 0.5);
+    color: $nord0;
+    opacity: 50%;
+}

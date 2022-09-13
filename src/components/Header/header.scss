@@ -1,0 +1,215 @@
+@import '../../../node_modules/nord/src/sass/nord.scss';
+
+.header {
+    background-color: $nord5;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    height: 3em;
+    width: 100%;
+    z-index: 3;
+    padding-right: 1.5em;
+}
+
+.header.active {
+    background-color: $nord4;
+}
+
+.navbar {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    padding: 0.75em 1em;
+    display: flex;
+}
+
+ @media (min-width: 75em) {
+    .navbar {
+        padding-top: 0.75em;
+        padding-right: unset;
+        padding-bottom: unset;
+        position: relative;
+        max-width: 75em;
+        margin: 0 auto;
+    }
+ }
+
+.navlinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+
+@media (min-width: 37.5em) {
+    .content {
+        display: flex;
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width:37.5em) {
+    .content {
+        display: none;
+        justify-content: space-between;
+        font-size: 1.5em;
+    }
+}
+
+
+.content * {
+    margin-top: 0px;
+    margin-right: 0.556em;
+}
+
+.content :first-child {
+    margin-left: 0px;
+}
+
+
+
+.kVNvgp:active, .kVNvgp:focus, .kVNvgp:hover, .kVNvgp:visited {
+    outline-style: none;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: $nord0;
+    font-size: 1.5em;
+}
+
+.fWqsav {
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    padding-right: 0.5em;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: background-color;
+}
+
+.kVNvgp {
+    color: inherit;
+    cursor: pointer;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+.gMkyAP {
+    padding-top: 1em;
+    cursor: pointer;
+    pointer-events: auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    background-color: transparent;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: background-color;
+    margin-left: 0.5em;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    appearance: button;
+}
+
+a:hover {
+    color: $nord8;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin-top: 0px;
+}
+
+@media (min-width: 37.5em)  {
+    .bdIxsw {
+        display: none;
+    }
+}
+
+.bdIxsw > * {
+    width: 1.423828125em;
+    height: 1.423828125em;
+    vertical-align: middle;
+}
+
+.bdIxsw {
+    cursor: pointer;
+    pointer-events: auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    background-color: transparent;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: background-color;
+    }
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin-top: 0px;
+}
+
+.hyogdw {
+    display: none;
+}

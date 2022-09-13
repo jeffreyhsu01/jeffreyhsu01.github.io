@@ -1,0 +1,54 @@
+@import "../../node_modules/nord/src/sass/nord.scss";
+
+
+.link-row {
+    // overflow: hidden;
+    position: absolute; // testing this, doesn't fit to the bottom of the 
+    bottom: 0;
+    width: 100%;
+    // margin-bottom: 1rem;
+    text-align: center;
+    // display: flex;
+    // position: relative;
+    // margin-top: -180px;
+}
+
+.button:hover {
+    background-color: $nord4;
+}
+
+.button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    font-weight: semibold;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;    
+    vertical-align: middle;
+    line-height: 1.2;
+    outline: none;
+    height: 3rem;
+    min-width: 3rem;
+    font-size: 1.125rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: $nord1;
+    padding: 0;
+}
+
+.logo  {
+    width: 1em;
+    height: 1em;
+    color: currentColor;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
