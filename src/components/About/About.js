@@ -16,16 +16,16 @@ class About extends Component {
             <div class="container-lg uppercase">
               <div class="AboutMe">
                 <h3>About Me</h3>
-                <p class="text"> Hi I'm Jeff and I'm a senior at Boston University studying Computer Science! Outside of work I'm with <a href="https://www.bu.edu/spark/" target="_blank">BU Spark!</a>, an innovation and accelerator program, cultivating new ideas.
+                <p class="text"> Hi I'm Jeff and I'm a recent graduate at Boston University. Thanks for checking out my site (the power of the interwebs :D), please don't hesitate to reach out through LinkedIn or my email!
                 </p>
                 <p class="text">
-                  What excites me most about software engineering is the constant ability to bet on myself. There are ample opportunities to raise the bar, to learn, to grow, and for that I'm grateful for the journey I've been on.
+                  What excites me most about software engineering is the constant ability to bet on myself. There are so many opportunities to learn and grow, and for that I'm grateful for what the future has in store.
                 </p>
                 <p class="text">
-                  I love building out innovative solutions, particularly in the design, productivity, and finanical spheres, and have experience building out e2e projects.
+                  I love building out innovative solutions in the design, productivity, and finanical spheres, and have experience building out e2e projects.
                 </p>
                 <p class="text">
-                  In my free time I enjoy building the latest LEGO sets, obsessivley following the Warriors/49ers, and hanging out with friends and family!
+                  In my free time I enjoy building the latest and greatest LEGO sets, obsessively following the Warriors/49ers, and hanging out with friends and family!
                 </p>
               </div>
             </div>

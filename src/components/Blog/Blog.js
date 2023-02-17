@@ -12,10 +12,10 @@ class Blog extends Component {
           <main className="Blog">
             <Header />
             <div className="NotReady">
-              <img src={CautionSign} alt="NA" />
+              <img src={CautionSign} alt="NA" class="Sign"/>
               <h1>Work in progress, check back later!</h1>
             </div>
-            <Links />
+            <Links class="Links" />
           </main>
           
           </div>

@@ -46,7 +46,7 @@
 @media (min-width: 37.5em) {
     .content {
         display: flex;
-        font-size: 1.5em;
+        // font-size: 1.5em;
     }
 }
 
@@ -54,7 +54,7 @@
     .content {
         display: none;
         justify-content: space-between;
-        font-size: 1.5em;
+        // font-size: 1.5em;
     }
 }
 
@@ -74,12 +74,10 @@
     outline-style: none;
 }
 
-.name {
-    width: 100%;
-    display: flex;
-    text-decoration: none;
-    color: $nord0;
-    font-size: 1.5em;
+.name-link {
+   width: 100%;
+   margin-left: 1em;
+   text-align: left;
 }
 
 .fWqsav {
@@ -213,4 +211,60 @@ button, input, optgroup, select, textarea {
 
 .hyogdw {
     display: none;
+}
+
+.mobileNav {
+    height: 0px;
+    background-color: $nord5;
+    overflow-y: auto;
+}
+
+.mobileNav h1 {
+    display: none;
+}
+
+.showMenu {
+    height: calc(5em + 100vh);
+    top: 2.75em;
+    width: 100%;
+    position: absolute;
+    background-color: $nord5;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    text-align: center;
+}
+
+.vertNavList {
+    display: inline-flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 1.125em;
+    padding-top: 6em;
+}
+
+.vertNavList * {
+    margin-top: 3em;
+}
+
+.showMenu h1{
+    display: block;
+}
+
+.showMenu .mobileLink{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding-top: 3em;
+}
+
+.mobileLink {
+    display: none;
+}
+
+@media (min-width: 37.5em) {
+    .showMenu {
+        display: none;
+    }
 }

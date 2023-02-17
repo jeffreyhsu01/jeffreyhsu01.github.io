@@ -2,18 +2,36 @@
 @import "../../../node_modules/nord/src/sass/nord.scss";
 
 .Blog {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+    // -webkit-box-flex: 1;
+    // -ms-flex-positive: 1;
+    // flex-grow: 1;
     text-align: center;
-    // min-height: 100vh;
+    // display: flex;
+    // flex: column;
     // position: relative;
+
 }
 
 .NotReady {
-  padding-top: 200px;
-  position: relative;
-//  top: 50%;
-//  transform: translateY(-50%);
-//  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   }
+
+.Sign {
+  height: 300px;
+  width: auto;
+  margin: 0 0;
+}
+
+.NotReady h1 {
+
+}
+
+.Blog .link-row {
+  position: absolute;
+  bottom: 0;
+  background-color: $nord6;
+}
