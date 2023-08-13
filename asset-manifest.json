@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8e7ae363.css",
-    "main.js": "/static/js/main.84bb52a7.js",
-    "static/media/me.png": "/static/media/me.a3a456db92994f7af18a.png",
+    "main.js": "/static/js/main.f1e10bbb.js",
+    "static/media/me.png": "/static/media/me.a7db09517e9970e83225.png",
     "static/media/memoji.png": "/static/media/memoji.7b718b9b264d9430a3d9.png",
     "static/media/Aspekta-1000.woff2": "/static/media/Aspekta-1000.c03739b20dbf44b78bcd.woff2",
     "static/media/Aspekta-950.woff2": "/static/media/Aspekta-950.9160d38036a7a4e076e8.woff2",
@@ -27,10 +27,10 @@
     "static/media/CautionSign.svg": "/static/media/CautionSign.39f08fe03be2648f4d76d0150c327ccb.svg",
     "index.html": "/index.html",
     "main.8e7ae363.css.map": "/static/css/main.8e7ae363.css.map",
-    "main.84bb52a7.js.map": "/static/js/main.84bb52a7.js.map"
+    "main.f1e10bbb.js.map": "/static/js/main.f1e10bbb.js.map"
   },
   "entrypoints": [
     "static/css/main.8e7ae363.css",
-    "static/js/main.84bb52a7.js"
+    "static/js/main.f1e10bbb.js"
   ]
 }
